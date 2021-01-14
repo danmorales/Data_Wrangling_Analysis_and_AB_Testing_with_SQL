@@ -1,0 +1,9 @@
+#Q1: Compare the final_assignments_qa table to the assignment events we captured for user_level_testing. Write an answer to the following question: Does this table have everything you need to compute metrics like 30-day view-binary?
+
+Query: 
+SELECT 
+  * 
+FROM 
+  dsv1069.final_assignments_qa
+
+Answer: No, we need the date and time of assignment to compute metrics like 30-day view-binary
